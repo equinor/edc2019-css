@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "storybook": "start-storybook --port 3000 --ci"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@storybook/addon-a11y": "^5.1.11",
+    "@storybook/addon-knobs": "^5.1.11",
+    "@storybook/react": "^5.1.11",
+    "babel-loader": "^8.0.6",
+    "prop-types": "^15.7.2"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
+  }
+}

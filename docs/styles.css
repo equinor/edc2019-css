@@ -1,0 +1,84 @@
+:root {
+  --alert-typography-fontsize-heading: 2rem;
+  --alert-typography-fontsize-body: 1.25rem;
+  --alert-color-background-info: steelblue;
+  --alert-color-background-error: crimson;
+  --alert-color-background-warning: darkorange;
+  --alert-color-background-success: gold;
+  --alert-color-text-info: white;
+  --alert-color-text-error: white;
+  --alert-color-text-warning: white;
+  --alert-color-text-success: grey;
+}
+
+body {
+  margin: 3rem;
+}
+
+.Alert + .Alert {
+  margin-top: 20px;
+}
+
+/** @define Alert */
+
+.Alert {
+  font-family: sans-serif;
+  background: silver;
+  display: flex;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.Alert-icon {
+  width: 60px;
+  height: 60px;
+  flex: none;
+}
+
+.Alert-content {
+  margin-left: 20px;
+}
+
+.Alert-heading {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.Alert-text {
+  font-size: 1.25rem;
+}
+
+/* Modifiers */
+
+.Alert--info {
+  background-color: var(--alert-color-background-info);
+  color: var(--alert-color-text-info);
+}
+
+.Alert--error {
+  background-color: var(--alert-color-background-error);
+  color: var(--alert-color-text-error);
+}
+
+.Alert--warning {
+  background-color: var(--alert-color-background-warning);
+  color: var(--alert-color-text-warning);
+}
+
+.Alert--success {
+  background-color: var(--alert-color-background-success);
+  color: var(--alert-color-text-success);
+}
+
+/* State */
+
+.Alert.is-hidden {
+  display: none;
+}
+
+/** @define utilities */
+
+.u-marginTop20px {
+  margin-top: 20px;
+}

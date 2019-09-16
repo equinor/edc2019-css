@@ -1,0 +1,9 @@
+{
+  /* prettier */
+  "editor.formatOnSave": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  /* emmet */
+  "emmet.triggerExpansionOnTab": true
+}
