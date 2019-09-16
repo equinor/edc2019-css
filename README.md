@@ -1,4 +1,4 @@
-# Styling components – a CSS crash course
+# Styling components 💅 – a CSS crash course
 
 **EDC 2019 CSS**
 
