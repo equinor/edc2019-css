@@ -1,16 +1,3 @@
-:root {
-  --alert-typography-fontsize-heading: 2rem;
-  --alert-typography-fontsize-body: 1.25rem;
-  --alert-color-background-info: steelblue;
-  --alert-color-background-error: crimson;
-  --alert-color-background-warning: darkorange;
-  --alert-color-background-success: gold;
-  --alert-color-text-info: white;
-  --alert-color-text-error: white;
-  --alert-color-text-warning: white;
-  --alert-color-text-success: grey;
-}
-
 body {
   margin: 3rem;
 }

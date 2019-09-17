@@ -40,13 +40,13 @@ body {
 }
 
 .Alert-heading {
-  font-size: 2rem;
+  font-size: var(--alert-typography-fontsize-heading);
   font-weight: 400;
   margin: 0;
 }
 
 .Alert-text {
-  font-size: 1.25rem;
+  font-size: var(--alert-typography-fontsize-body);
 }
 
 /* Modifiers */
