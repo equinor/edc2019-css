@@ -16,15 +16,15 @@ const paths = {
 const Svg = styled.svg`
   width: 60px;
   height: 60px;
+`
 
-  & > path {
-    fill: currentColor;
-  }
+const Path = styled.path`
+  fill: currentColor;
 `
 
 const Icon = ({ icon }) => (
   <Svg viewBox={`0 0 ${icon === 'warning' ? '576' : '512'} 512`}>
-    <path d={paths[icon]} />
+    <Path d={paths[icon]} />
   </Svg>
 )
 

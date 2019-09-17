@@ -12,7 +12,14 @@ const {
 
 const Alert = styled.div.attrs(props => ({
   role: 'alert',
-}))``
+}))`
+  font-family: sans-serif;
+  display: flex;
+  max-width: 500px;
+  padding: 20px;
+  background-color: ${({ variant }) => backgroundColor[variant]};
+  color: ${({ variant }) => textColor[variant]};
+`
 
 Alert.propTypes = {
   variant: PropTypes.oneOf(['info', 'error', 'warning', 'success']),
@@ -24,10 +31,18 @@ Alert.defaultProps = {
 
 export default Alert
 
-const Content = styled.div``
+const Content = styled.div`
+  margin-left: 20px;
+`
 
-const Heading = styled.h2``
+const Heading = styled.h2`
+  font-size: ${fontsize.heading};
+  font-weight: 400;
+  margin: 0;
+`
 
-const Body = styled.div``
+const Body = styled.div`
+  font-size: ${fontsize.body};
+`
 
 export { Content, Heading, Body }
